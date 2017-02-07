@@ -24,7 +24,9 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 ## resources
 > vuejs 
 https://vuejs.org
+
 > vuejs github
 https://github.com/vuejs/vue
+
 > vue-cli
 https://github.com/vuejs/vue-cli
