@@ -1,8 +1,10 @@
 <template>
   <div id="todoitem">
     <li>
+      
+      <input type='checkbox' v-show="!todo.done" @click="todo.done = !todo.done"></input>
       {{todo.text}}
-      <button v-show="!todo.done" @click='removeItem'>X</button>
+      <button @click='removeItem'>X</button>
     </li>
   </div>
 </template>

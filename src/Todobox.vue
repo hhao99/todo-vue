@@ -3,6 +3,8 @@
     <todoinput v-bind:additem='additem'></todoinput>
     <todolist v-bind:todos='todos' v-bind:remove="removeitem"></todolist>
     <todoinput v-bind:additem='additem' v-show="todos.length"></todoinput>
+  
+    {{todos}}
   </div>
 </template>
 

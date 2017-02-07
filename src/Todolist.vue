@@ -2,9 +2,9 @@
   <div id="app">
     <section v-show='todos.length'>
       You have {{todos.length}} task(s) to be done!
-      <ol v-for="todo in todos">
+      <ul v-for="todo in todos">
         <todoitem :todo='todo' v-bind:remove='removeitem'></todoitem>
-      </ol>
+      </ul>
     </section>
    </div>
 </template>
